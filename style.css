@@ -1,0 +1,172 @@
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial;
+
+}
+
+
+body {
+
+    background: #f5f7fa;
+    transition: .3s;
+
+}
+
+
+nav {
+
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background: #6a0dad;
+    color: white;
+
+}
+
+
+
+.hero {
+
+    text-align: center;
+    padding: 100px 20px;
+
+}
+
+
+.hero h1 {
+
+    font-size: 40px;
+    margin-bottom: 20px;
+
+}
+
+
+.hero p {
+
+    margin-bottom: 20px;
+
+}
+
+
+.joinBtn {
+
+    padding: 12px 25px;
+    border: none;
+    background: #6a0dad;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+
+
+
+.about {
+
+    display: flex;
+    gap: 30px;
+    padding: 50px;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+
+
+.about img {
+
+    width: 300px;
+    border-radius: 15px;
+
+}
+
+
+.formSection {
+
+    padding: 50px;
+
+}
+
+
+form {
+
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+
+}
+
+
+
+input,
+textarea {
+
+    padding: 15px;
+    border-radius: 8px;
+    border: 1px solid gray;
+
+}
+
+
+
+button {
+
+    padding: 12px;
+    border: none;
+    cursor: pointer;
+    border-radius: 8px;
+
+}
+
+
+
+footer {
+
+    text-align: center;
+    padding: 20px;
+    background: #6a0dad;
+    color: white;
+
+    margin-top: 50px;
+
+}
+
+
+#success {
+
+    margin-top: 20px;
+    font-weight: bold;
+    color: green;
+
+}
+
+
+
+.dark {
+
+    background: #111;
+    color: white;
+
+}
+
+
+
+@media(max-width:700px) {
+
+    .hero h1 {
+
+        font-size: 28px;
+
+    }
+
+
+    .about {
+
+        flex-direction: column;
+
+    }
+
+}
